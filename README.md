@@ -1,26 +1,19 @@
 # Barbossa
 ---
 Info:
-No I did not make this viking posted this to my discord "Mac Hacks" months ago after his website he made went down I am greatful that he made, all I am doing is improving it or making changes. The current menu Barbossa currently is using is a placeholder I will be either remaking the menu or going back to the old one I still haven't decided yet.
+This Cheat is a paste of Barbossa & Breathless.
 
-# Discord
-
-https://discord.gg/NSBEH8A
-
----
 ---
 
 How to inject:
 
-Open in Xcode
-
-Compile "cmd + b"
-
-Put in injector folder
-
+Open in xCode
+Press cmd + b
+go into folder and take dylib
+cd (your folder)
+start csgo
 open terminal and do "sudo ./osxinj csgo_osx64 libvHook.dylib"
 
-Video tutorial: https://youtu.be/lX-zF0i4aOU
 
 If you have any problems feel free to create an issue
 
@@ -43,5 +36,7 @@ ViKiNG (Making Barbossa)
 Akalisch (NetVarManager/PatternScanner)
 Pwned (Menu & Sorting Everything)
 Bypass (Spec List)
-Ziwiiz (Fake Angles)
-Warlauke (Updating Current Barbossa)
+Warlauke (Barbossa)
+-x (breathless)
+CreditCode (updating everything)
+
