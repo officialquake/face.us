@@ -770,7 +770,7 @@ void cMenu::renderMenu() {
     
     draw->RectOutlined(x, y, w, h, 1, Color(18, 18, 18, 255), Color(20, 20, 20, 255));
     draw->fillrgba(x + 2.5, y + 19, w - 4, 3, Color(163, 12, 224, 255));
-    draw->drawstring(x + ( ( w - 4 ) / 2 ) + 2, y + 10, Color::White(), mFont, "-Breathless", true);
+    draw->drawstring(x + ( ( w - 4 ) / 2 ) + 2, y + 10, Color::White(), mFont, "-face.us", true);
     
     // Draws tabs
     draw->RectOutlined(x + 2, y + 20 + 7, 96, 25, 1, Color(18, 18, 18, 255), Color::Black());
