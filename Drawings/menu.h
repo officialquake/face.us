@@ -1,7 +1,6 @@
 //
 //  menu.hpp
-//  macOS base
-//
+
 
 #pragma once
 
