@@ -794,7 +794,7 @@ public:
     CCSWeaponInfo* GetCSWpnData()
     {
         typedef CCSWeaponInfo* (* oGetCSWpnData)(void*);
-        return getvfunc<oGetCSWpnData>(this, 519)(this);
+        return getvfunc<oGetCSWpnData>(this, 516)(this);
     }
     
     float GetInaccuracy()
