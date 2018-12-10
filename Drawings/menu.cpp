@@ -11,16 +11,16 @@ Config cfg;
 
 // Colours
 
-Color Red             = Color(127, 255, 0, 255);
-Color inactive          = Color(127, 255, 0, 255);
+Color Red             = Color(255, 0, 57, 255);
+Color inactive          = Color(82, 82, 82, 255);
 Color MainColor         = Red;
 
 Color FontColor         = Color(250, 250, 250, 250);
-Color background        = Color(127, 255, 0, 255);
-Color border1           = Red;
-Color border2           = Color(127, 255, 0, 255);
+Color background        = Color(18, 18, 18, 255);
+Color border1           = Color(60, 60, 60, 255);
+Color border2           = Color(40, 40, 40, 255);
 Color black             = Color(0, 0, 0, 255);
-Color Avoz              = Color(127, 255, 0, 255);
+Color Avoz              = Color(163, 12, 224, 255);
 
 
 bool WasPressed, WasReleased;
@@ -681,9 +681,11 @@ void cMenu::renderMisc(int x, int y) {
     this->renderCheckbox(x, y + 113, "No visual recoil", &vars.misc.novisual);
     this->renderCheckbox(x, y + 133, "Chat Spam", &vars.misc.spammer);
     //clan tags
-    this->renderCheckbox(x, y + 150, "Clan Tag", &vars.misc.vangeme);
-    this->renderCheckbox(x, y + 150, "skeet.cc", &vars.misc.gamesense);
-    this->renderCheckbox(x, y + 170, "aimware.net", &vars.misc.aimware);
+    //this->renderCheckbox(x, y + 150, "Clan Tag", &vars.misc.vangeme);
+    //this->renderCheckbox(x, y + 150, "skeet.cc", &vars.misc.gamesense);
+    //this->renderCheckbox(x, y + 170, "aimware.net", &vars.misc.aimware);
+    this->renderCheckbox(x, y + 153, "clantag", &vars.misc.clantag);
+    this->renderCombo(x, y + 173, 125, 20, "off", CT, vars.misc.clantagtype, &vars.clantag_opend);
     this->renderCheckbox(x, y + 203, "Watermark", &vars.misc.watermark);
     
     
@@ -768,7 +770,7 @@ void cMenu::renderMenu() {
     
     draw->RectOutlined(x, y, w, h, 1, Color(18, 18, 18, 255), Color(20, 20, 20, 255));
     draw->fillrgba(x + 2.5, y + 19, w - 4, 3, Color(163, 12, 224, 255));
-    draw->drawstring(x + ( ( w - 4 ) / 2 ) + 2, y + 10, Color::White(), mFont, "-vape.us", true);
+    draw->drawstring(x + ( ( w - 4 ) / 2 ) + 2, y + 10, Color::White(), mFont, "-Breathless", true);
     
     // Draws tabs
     draw->RectOutlined(x + 2, y + 20 + 7, 96, 25, 1, Color(18, 18, 18, 255), Color::Black());
