@@ -335,7 +335,7 @@ bool IsVisible(C_BaseEntity* local, C_BaseEntity* entity)
 }
 
 string GetWeaponName(C_BaseCombatWeapon* pWeapon) {
-    
+    if(!pWeapon) { return "nullptr"; }
     short ID = *pWeapon->GetItemDefinitionIndex();
     
     switch (ID) {
