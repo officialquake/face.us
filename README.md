@@ -11,9 +11,9 @@ Open in xCode
 
 Press cmd + b
 
-go into folder and take dylib
+go into the file section, find the product folder, click open on finder and take the dylib
 
-cd (your folder)
+cd where the dylib and also where osxinj is
 
 start csgo
 
@@ -51,3 +51,4 @@ Warlauke (Barbossa)
 
 CreditCode (updating everything)
 
+iRaizo (fixing offsets)
