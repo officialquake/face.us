@@ -1,4 +1,4 @@
-# Barbossa
+# Face.us
 ---
 Info:
 This Cheat is a paste of Barbossa & Breathless.
