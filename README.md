@@ -43,12 +43,8 @@ Akalisch (NetVarManager/PatternScanner)
 
 Pwned (Menu & Sorting Everything)
 
-Bypass (Spec List)
-
 Warlauke (Barbossa)
-
--x (breathless)
 
 CreditCode (updating everything)
 
-iRaizo (fixing offsets)
+
